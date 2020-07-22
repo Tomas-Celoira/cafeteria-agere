@@ -1,0 +1,116 @@
+.main__section{
+    position: absolute;
+    top: 67%
+}
+.section__container{
+ width: 35%;
+ height: auto;
+
+    h2{
+        text-align: left;
+        position: relative;
+        left: 20%;
+    }
+    p{
+        width: 50%;
+        position: relative;
+        left: 20%;
+        top: 10%;
+    }
+}
+
+.section__img-map{
+    width: 30%;
+    height: auto;
+    position: absolute;
+    left:35%;
+    top: 5%;
+    z-index: 1;
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.section__blue{
+    width: 30%;
+    height: 250px;
+    background-color: $blue-france;
+    position: absolute;
+    left: 40%;
+    top: -7%;
+    z-index: -1;
+}
+
+.section__img-coffe{
+    position: absolute;
+    rotate: 90;
+    width: 4%;
+    left: 68%;
+    top: -7%;
+    z-index: 2;
+    img{
+        width: 100%;
+    }
+}
+
+.section__img-machine{
+    position: absolute;
+    left: 70%;
+    top: -7%;
+    width: 32%;
+
+    img{
+        width: 100%;
+    }
+}
+
+.section__info{
+    position: absolute;
+    background-color: $white;
+    width: 41%;
+    height: 20%;
+    top: 45%;
+    left: 16%;
+
+}
+
+.section__prices{
+}
+
+.section__title{
+    font-size: $xx-large;
+    text-align: left;
+}
+
+.section__paragraph{
+    font-size: $large;
+    width: 10rem;
+    text-align: left; 
+}
+
+.section__prices, .section__country, .section__coffe{
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.section__arrow{
+    position: absolute;
+    background-color:$flame;
+    width: 10%;
+    height: 20%;
+    top: 41.3%;
+    left: 55%;
+    box-shadow: 30px 30px 0px $buff ;
+}
+
+.section__orange{
+
+    i{
+        color: $white;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    }
+}

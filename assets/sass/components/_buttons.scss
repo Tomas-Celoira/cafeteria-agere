@@ -1,0 +1,29 @@
+.nav__btn-white{
+    border-style: solid;
+    border-color: $quick-silver;
+    border-width: 1px;
+    background-color: $white;
+    color: $quick-silver;
+    padding: 3%;
+
+    &:hover{
+        border-style: solid;
+        border-color: $outer-space;
+        border-width: 1px;
+        background-color: $white;
+        color: $outer-space;
+    }
+}
+
+.nav__btn-green{
+    border-style: none;
+    background-color: $shiny-shamrock;
+    color: $isabelline;
+    padding: 3%;
+
+        &:hover{
+            border-style: none;
+            background-color: $turquoise-green;
+            color: $outer-space;
+        }
+}

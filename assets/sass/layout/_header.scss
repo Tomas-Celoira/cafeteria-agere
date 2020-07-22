@@ -1,0 +1,26 @@
+.header{
+    display: inline-block;
+    justify-content: baseline;
+}
+
+.header__img{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.header__title{
+    position: absolute;
+    left: 70%; 
+    top: 20%;
+    font-family: $mono;
+    width: auto;
+    
+    h1{
+        font-size: $xxx-large;
+        width: 50%;
+    }
+    h2{
+        font-size: $large;
+    }
+}
